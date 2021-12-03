@@ -1,0 +1,37 @@
+body {
+    background-image: url(images/pexels-rodion-kutsaiev-9436715.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenerlogotitrelist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 39%;   
+}
+
+li {
+margin-left: 5%;
+font-weight: 700;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 5%;
+    margin-left: 10%;
+}
