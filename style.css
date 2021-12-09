@@ -1,27 +1,56 @@
 body {
-    background-image: url(images/pexels-rodion-kutsaiev-9436715.jpg);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+}
+
+header{
+    background-image: url(images/pexels-pixabay-220444.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
 }
 .contenerlogotitrelist {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    min-height: 150px;
+    overflow: hidden;
 }
 
 .logo {
+    float: left;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+.logo img {
+    width: 150px;
 }
 
 ul {
+    float: right;
     list-style: none;
-    display: flex;
-    width: 39%;   
+    max-width: 600px;
+    padding-top: 10px;
+    overflow: hidden;
+    padding-right: 20px;
+    
+      
 }
 
 li {
-margin-left: 5%;
-font-weight: 700;
+    float: left;
+    margin-right:2em;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+li.end {
+    margin-right:0;
+    
+}
+
+li a  {
+    text-decoration: none;
+    color: #ffff;
 }
 
 h1 {
@@ -34,4 +63,41 @@ h2 {
     font-size: 2em;
     margin-top: 5%;
     margin-left: 10%;
+    margin-bottom: 10%%;
+}
+
+.main {
+   
+}
+h3 {
+    color:#000000;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: 20px ;
+
+}
+
+.contenerleftright {
+     display: flex;
+     margin-top: 10px;
+     color: #000000;
+     justify-content: space-around;
+    
+}
+
+.left, .right{
+    width: 300px;
+}
+.left img {
+    height: 200px;
+}
+.right img {
+    height :200px;  
+}
+.right{
+    border-left: 2px solid seashell;
+    text-align: center;
+}
+.left p, .right p {
+    text-align: justify;
 }
